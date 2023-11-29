@@ -105,10 +105,4 @@ class CustomTextStyles {
   static get titleSmall_1 => theme.textTheme.titleSmall!;
 }
 
-extension on TextStyle {
-  TextStyle get poppins {
-    return copyWith(
-      fontFamily: 'Poppins',
-    );
-  }
-}
+extension on TextStyle {}

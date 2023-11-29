@@ -27,19 +27,22 @@ class CartPage extends StatelessWidget {
         child: Scaffold(
             resizeToAvoidBottomInset: false,
             appBar: _buildAppBar(context),
-            body: Container(
-                width: double.maxFinite,
-                padding: EdgeInsets.symmetric(horizontal: 15.h, vertical: 7.v),
-                child: Column(children: [
-                  _buildCartList(context),
-                  SizedBox(height: 52.v),
-                  _buildCouponCodeRow(context),
-                  SizedBox(height: 16.v),
-                  _buildTotalPriceDetailsColumn(context),
-                  SizedBox(height: 16.v),
-                  CustomElevatedButton(text: "lbl_check_out".tr),
-                  SizedBox(height: 8.v)
-                ]))));
+            body: SingleChildScrollView(
+              child: Container(
+                  width: double.maxFinite,
+                  padding:
+                      EdgeInsets.symmetric(horizontal: 15.h, vertical: 7.v),
+                  child: Column(children: [
+                    _buildCartList(context),
+                    SizedBox(height: 52.v),
+                    _buildCouponCodeRow(context),
+                    SizedBox(height: 16.v),
+                    _buildTotalPriceDetailsColumn(context),
+                    SizedBox(height: 16.v),
+                    CustomElevatedButton(text: "lbl_check_out".tr),
+                    SizedBox(height: 8.v)
+                  ])),
+            )));
   }
 
   /// Section Widget

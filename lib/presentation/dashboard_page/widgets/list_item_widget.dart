@@ -27,7 +27,7 @@ class ListItemWidget extends StatelessWidget {
             width: 70.adaptSize,
             padding: EdgeInsets.all(23.h),
             child: CustomImageView(
-              imagePath: listItemModelObj?.arrowLeft,
+              imagePath: listItemModelObj.arrowLeft,
             ),
           ),
           SizedBox(height: 7.v),

@@ -24,7 +24,7 @@ class NotificationfeedItemWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           CustomImageView(
-            imagePath: notificationfeedItemModelObj?.newProduct,
+            imagePath: notificationfeedItemModelObj.newProduct,
             height: 48.adaptSize,
             width: 48.adaptSize,
             radius: BorderRadius.circular(

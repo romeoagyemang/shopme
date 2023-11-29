@@ -26,7 +26,7 @@ class MegasalelistItemWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           CustomImageView(
-            imagePath: megasalelistItemModelObj?.image,
+            imagePath: megasalelistItemModelObj.image,
             height: 109.adaptSize,
             width: 109.adaptSize,
             radius: BorderRadius.circular(

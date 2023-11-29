@@ -24,7 +24,7 @@ class OrderdetailsItemWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           CustomImageView(
-            imagePath: orderdetailsItemModelObj?.nikeAirfaintglu,
+            imagePath: orderdetailsItemModelObj.nikeAirfaintglu,
             height: 72.adaptSize,
             width: 72.adaptSize,
             radius: BorderRadius.circular(
@@ -50,7 +50,7 @@ class OrderdetailsItemWidget extends StatelessWidget {
                       ),
                       Spacer(),
                       CustomImageView(
-                        imagePath: orderdetailsItemModelObj?.nikeAirfaintglu1,
+                        imagePath: orderdetailsItemModelObj.nikeAirfaintglu1,
                         height: 24.adaptSize,
                         width: 24.adaptSize,
                       ),

@@ -1,7 +1,6 @@
 // ignore_for_file: must_be_immutable
 
 import 'package:equatable/equatable.dart';
-import '../../../core/app_export.dart';
 import 'manfashion_item_model.dart';
 import 'womanfashion_item_model.dart';
 

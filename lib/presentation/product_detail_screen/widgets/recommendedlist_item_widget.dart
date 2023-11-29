@@ -26,7 +26,7 @@ class RecommendedlistItemWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           CustomImageView(
-            imagePath: recommendedlistItemModelObj?.image,
+            imagePath: recommendedlistItemModelObj.image,
             height: 109.adaptSize,
             width: 109.adaptSize,
             radius: BorderRadius.circular(

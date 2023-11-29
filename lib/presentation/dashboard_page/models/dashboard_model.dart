@@ -2,7 +2,6 @@
 
 import 'package:equatable/equatable.dart';
 import 'slider_item_model.dart';
-import '../../../core/app_export.dart';
 import 'list_item_model.dart';
 import 'flashsalelist_item_model.dart';
 import 'megasalelist_item_model.dart';

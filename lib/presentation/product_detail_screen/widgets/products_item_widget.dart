@@ -18,7 +18,7 @@ class ProductsItemWidget extends StatelessWidget {
     return SizedBox(
       width: 72.h,
       child: CustomImageView(
-        imagePath: productsItemModelObj?.productPicture,
+        imagePath: productsItemModelObj.productPicture,
         height: 72.adaptSize,
         width: 72.adaptSize,
         radius: BorderRadius.circular(
