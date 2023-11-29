@@ -27,22 +27,27 @@ class ExplorePage extends StatelessWidget {
     return SafeArea(
         child: Scaffold(
             appBar: _buildAppBar(context),
-            body: Container(
-                width: double.maxFinite,
-                padding: EdgeInsets.symmetric(horizontal: 16.h, vertical: 25.v),
-                child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text("lbl_man_fashion".tr,
-                          style: theme.textTheme.titleSmall),
-                      SizedBox(height: 13.v),
-                      _buildManFashion(context),
-                      SizedBox(height: 22.v),
-                      Text("lbl_woman_fashion".tr,
-                          style: theme.textTheme.titleSmall),
-                      SizedBox(height: 13.v),
-                      _buildWomanFashion(context)
-                    ]))));
+            body: SingleChildScrollView(
+              child: Container(
+                  width: double.maxFinite,
+                  padding:
+                      EdgeInsets.symmetric(horizontal: 16.h, vertical: 25.v),
+                  child: SingleChildScrollView(
+                    child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("lbl_man_fashion".tr,
+                              style: theme.textTheme.titleSmall),
+                          SizedBox(height: 13.v),
+                          _buildManFashion(context),
+                          SizedBox(height: 22.v),
+                          Text("lbl_woman_fashion".tr,
+                              style: theme.textTheme.titleSmall),
+                          SizedBox(height: 13.v),
+                          _buildWomanFashion(context)
+                        ]),
+                  )),
+            )));
   }
 
   /// Section Widget

@@ -48,7 +48,7 @@ class FlashsalelistItemWidget extends StatelessWidget {
                   ),
                 ),
                 CustomImageView(
-                  imagePath: flashsalelistItemModelObj?.image,
+                  imagePath: flashsalelistItemModelObj.image,
                   height: 111.v,
                   width: 139.h,
                   alignment: Alignment.topCenter,

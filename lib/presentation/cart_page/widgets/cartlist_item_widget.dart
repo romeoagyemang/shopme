@@ -25,7 +25,7 @@ class CartlistItemWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           CustomImageView(
-            imagePath: cartlistItemModelObj?.nikeAirexecutive,
+            imagePath: cartlistItemModelObj.nikeAirexecutive,
             height: 58.v,
             width: 74.h,
             margin: EdgeInsets.only(bottom: 34.v),

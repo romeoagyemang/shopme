@@ -26,7 +26,7 @@ class OfferscreenoneItemWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           CustomImageView(
-            imagePath: offerscreenoneItemModelObj?.image,
+            imagePath: offerscreenoneItemModelObj.image,
             height: 133.adaptSize,
             width: 133.adaptSize,
             radius: BorderRadius.circular(

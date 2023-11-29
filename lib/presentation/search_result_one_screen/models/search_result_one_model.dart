@@ -1,7 +1,6 @@
 // ignore_for_file: must_be_immutable
 
 import 'package:equatable/equatable.dart';
-import '../../../core/app_export.dart';
 import 'searchresultone_item_model.dart';
 
 /// This class defines the variables used in the [search_result_one_screen],

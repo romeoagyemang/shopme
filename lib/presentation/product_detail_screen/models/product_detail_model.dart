@@ -2,7 +2,6 @@
 
 import 'package:equatable/equatable.dart';
 import 'productslider_item_model.dart';
-import '../../../core/app_export.dart';
 import 'sizeslist_item_model.dart';
 import 'products_item_model.dart';
 import 'recommendedlist_item_model.dart';

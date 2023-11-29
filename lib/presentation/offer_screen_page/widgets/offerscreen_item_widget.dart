@@ -22,7 +22,7 @@ class OfferscreenItemWidget extends StatelessWidget {
         alignment: Alignment.centerLeft,
         children: [
           CustomImageView(
-            imagePath: offerscreenItemModelObj?.image,
+            imagePath: offerscreenItemModelObj.image,
             height: 206.v,
             width: 343.h,
             radius: BorderRadius.circular(

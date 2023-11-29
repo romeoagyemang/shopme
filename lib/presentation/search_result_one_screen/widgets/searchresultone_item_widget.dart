@@ -30,7 +30,7 @@ class SearchresultoneItemWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           CustomImageView(
-            imagePath: searchresultoneItemModelObj?.image,
+            imagePath: searchresultoneItemModelObj.image,
             height: 94.v,
             width: 120.h,
             alignment: Alignment.center,
